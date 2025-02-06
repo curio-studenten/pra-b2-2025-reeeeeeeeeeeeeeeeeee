@@ -201,7 +201,9 @@ footer{
   }
 
   .row{
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
   }
   .sidy-by-side{
     flex-direction: column;
