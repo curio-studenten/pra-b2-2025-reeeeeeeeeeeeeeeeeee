@@ -119,7 +119,7 @@ article h2.accessibility{
 }
 article h2.rides{
   background-image: url('../images/drone-drew-dau.jpg');
-  \text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
+  text-shadow: 0 0 0 #FCFCFC, -1px -1px 0 #FCFCFC, 1px -1px 0 #FCFCFC, -1px 1px 0 #FCFCFC, 1px 1px 0 #FCFCFC;
 }
 article h2.open-forever{
   background-image: url('../images/open-james-lee.jpg');
@@ -153,6 +153,7 @@ button{
   border: 2px solid #FCFCFC;
   color: #000000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .payment-option{
