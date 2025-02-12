@@ -227,17 +227,16 @@ footer{
 */
 @font-face {
   font-family: 'Heartbeat';
-  src: url('fonts/heartbeat.eot'); 
-  src: url('fonts/heartbeat.eot?#iefix') format('embedded-opentype'),
-       url('fonts/heartbeat.woff2') format('woff2'),
-       url('fonts/heartbeat.woff') format('woff'),
-       url('fonts/heartbeat.ttf') format('truetype'),
-       url('fonts/heartbeat.otf') format('opentype'),
-       url('fonts/heartbeat.svg#Heartbeat') format('svg'); 
+  src: url('../fonts/heartbeat.eot'); 
+  src: url('../fonts/heartbeat.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/heartbeat.woff2') format('woff2'),
+       url('../fonts/heartbeat.woff') format('woff'),
+       url('../fonts/heartbeat.ttf') format('truetype'),
+       url('../fonts/heartbeat.otf') format('opentype'),
+       url('../fonts/heartbeat.svg#Heartbeat') format('svg'); 
   font-weight: normal;
   font-style: normal;
 }
-
 
 /*
   Animations for fading in logo on page load
