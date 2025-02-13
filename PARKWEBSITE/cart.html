@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,113 @@
 
   <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
   <header>
     <div class="header-content">
       <div class="wrapper">
-        <img src="images/logo-big-v3.png" alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond." class="logo hidden-on-sm">
+        <img src="images/logo-big-v3.png"
+          alt="Het logo van DeveloperLand met een draaimolen, kasteel, achtbaan en tot slot een gezin op de voorgrond."
+          class="logo hidden-on-sm">
         <h1 class="hidden-on-lg">DeveloperLand</h1>
       </div>
     </div>
   </header>
-  <main>
-    <div class="wrapper">
-      <article>
-        <h2>Winkelwagentje</h2>
-        <div>
-          <span>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder met de grote groene knop.</span>
-          <!-- 
-            Winkelwagen hier
-          -->
-          
-          <a href="payment.html"><button>Dit is correct, verder naar betaling</button></a>
-        </div>
-      </article>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FCFCFC;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+      border-bottom: 1px solid black;
+    }
+
+    .total-row {
+      border-top: 1px solid black;
+      font-weight: bold;
+    }
+
+    .button-container {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    button {
+      background: #27AE60;
+      color: rgb(0, 0, 0);
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #219150;
+    }
+
+    td,
+    tr,
+    th {
+      padding: 0;
+    }
+  </style>
+
+  </head>
+  <div class="container">
+    <h2>Winkelwagentje</h2>
+    <div class="P1">
+      <p>Dit zijn alle producten die u gaat bestellen. Controleer een laatste keer of alles klopt en ga daarna verder
+        met de grote groene knop.</p>
     </div>
-  </main>
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Prijs (enkel)</th>
+        <th>Aantal</th>
+        <th>Prijs (totaal)</th>
+      </tr>
+      <tr>
+        <td>Entreekaartje Kind t/m 3 jaar</td>
+        <td>&euro; 0</td>
+        <td>1</td>
+        <td>&euro; 0</td>
+      </tr>
+      <tr>
+        <td>Entreekaartje Regulier</td>
+        <td>&euro; 24,95</td>
+        <td>2</td>
+        <td>&euro; 49,90</td>
+      </tr>
+      <tr>
+        <td>Entreekaartje Senior</td>
+        <td>&euro; 14,95</td>
+        <td>1</td>
+        <td>&euro; 14,95</td>
+      </tr>
+      <tr class="total-row">
+        <td></td>
+        <td></td>
+        <td>Totaalsom (incl. btw)</td>
+        <td>&euro; 64,85</td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button onclick="location.href='payment.html'">Dit is correct, verder naar betaling</button>
+    </div>
+  </div>
+
   <footer>
     <div class="wrapper">
       <div class="copyright">
@@ -39,4 +123,5 @@
     </div>
   </footer>
 </body>
+
 </html>

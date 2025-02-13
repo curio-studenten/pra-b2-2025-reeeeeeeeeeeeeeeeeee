@@ -80,10 +80,6 @@ table th{
   text-align: start;
 }
 
-table thead, table tbody{
-  border-bottom: 1px solid #303030;
-}
-
 table th.slim{
   width: 100px;
 }
@@ -159,6 +155,9 @@ button{
   margin-left: 300px;
 }
 
+.P1{
+  font-size: smaller;
+}
 .payment-option{
   height: 64px;
 }
