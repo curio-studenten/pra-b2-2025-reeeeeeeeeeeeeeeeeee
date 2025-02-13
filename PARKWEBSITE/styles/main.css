@@ -155,6 +155,9 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+.mok{
+  margin-left: 300px;
+}
 
 .payment-option{
   height: 64px;
